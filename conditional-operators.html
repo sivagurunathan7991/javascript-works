@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"/>
+</head>
+<body>
+
+<script>
+    let test = prompt("Enter Age", "");
+    if(test <= 4){
+            alert(`your age is ${test}`);
+    }
+    else if(test >= 6){
+        alert(`your age is ${test}`);
+    }
+    else{
+        alert("failed");
+    }
+    
+    
+    let test3;
+    let test2 = prompt("How old are you ?..", "");
+    if(test2 >= 18 ){
+        test3 = true;
+    }
+    else {
+        test3 = false;
+    }
+    alert( test3);
+    
+    
+    let age = prompt('age?', 18);
+
+    let message = 
+        (age < 3) ? 'Hi, baby!' :
+      (age < 18) ? 'Hello!' :
+      (age < 100) ? 'Greetings!' :
+      'What an unusual age!';
+
+    alert( message );
+    
+</script>
+</body>
+
+</html>
